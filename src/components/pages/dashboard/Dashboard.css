@@ -1,0 +1,82 @@
+.dashboard {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fafbff;
+  padding: 100px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-wrapper {
+  padding: 20px;
+  width: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 30px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 37px 43px 38px;
+}
+
+.chart-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.chart-select {
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #7e7e7e;
+}
+
+.chart-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.pupils-wrapper {
+  width: 40%;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 30px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px 37px 43px 38px;
+}
+
+.pupils-content {
+  margin-bottom: 11px;
+}
+
+.pupils-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.pupils-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #acacac;
+}

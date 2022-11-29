@@ -1,0 +1,139 @@
+.students-wrapper {
+  padding: 20px;
+}
+
+.students-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 30px;
+  margin-bottom: 35px;
+}
+
+.students-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.students-span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #16c098;
+}
+
+.students-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.students-form {
+  display: flex;
+  align-items: center;
+}
+
+.students-form-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  margin-right: 17px;
+}
+
+.students-input {
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #b5b7c0;
+  padding: 10px;
+  padding-left: 40px;
+  background-color: #f9fbff;
+  border-radius: 10px;
+}
+
+.students-search {
+  color: #7e7e7e;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.students-status {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #7e7e7e;
+}
+
+.students-select {
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.students-table {
+  padding: 30px 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 30px;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #292d32;
+}
+
+.table thead td {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #b5b7c0;
+}
+
+.table tr {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.td-span {
+  display: inline-block;
+  padding: 4px 20px;
+  background-color: rgba(22, 192, 152, 0.38);
+  border: 1px solid #00b087;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #008767;
+}
